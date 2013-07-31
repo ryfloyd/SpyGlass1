@@ -1,6 +1,0 @@
-[submodule "ZendOAuth"]
-	path = ZendOAuth
-	url = git://github.com/zendframework/ZendOAuth.git
-[submodule "externalrepo"]
-	path = externalrepo
-	url = git://github.com/zendframework/ZendOAuth.git
