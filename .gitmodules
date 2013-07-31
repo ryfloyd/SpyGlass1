@@ -1,0 +1,3 @@
+[submodule "ZendOAuth"]
+	path = ZendOAuth
+	url = git://github.com/zendframework/ZendOAuth.git

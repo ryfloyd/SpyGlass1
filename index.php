@@ -10,5 +10,5 @@ if (isset($_SESSION['auth'])) {
 } else {
     echo "Not logged in";
     echo "<br><br>";
-    echo "<a href='auth.php'>Sign in to tumbler</a>";
+    echo "<a href='auth.php'>Sign in to tumblr</a>";
 }
