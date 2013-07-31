@@ -10,7 +10,7 @@ if (isset($_SESSION['auth'])) {
     die();
 }
 
-require_once 'Zend/Oauth/Consumer.php';
+require_once 'ZendOauth/ZendOAuth/Consumer.php';
 $consumer = new Zend_Oauth_Consumer(require_once 'config.php');
 
 $token = $consumer->getRequestToken();
