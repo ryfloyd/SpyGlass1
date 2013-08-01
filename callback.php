@@ -12,7 +12,7 @@ $response = array(
     'oauth_verifier' => $_GET['oauth_verifier'],
 );
 
-require_once 'ZendOauth/ZendOAuth/Consumer.php';
+require_once 'vendor/autoload.php';
 $consumer = new Zend_Oauth_Consumer(require_once 'config.php');        
 
 $requestToken = unserialize($_SESSION['requestToken']);
